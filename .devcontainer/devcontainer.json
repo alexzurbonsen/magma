@@ -23,7 +23,11 @@
 		"ms-python.vscode-pylance",
 		"njpwerner.autodocstring",
 	],
-	"image": "ghcr.io/magma/magma/devcontainer:sha-206a67a",
+	// "image": "ghcr.io/magma/magma/devcontainer:sha-206a67a",
+    "build": {
+      "dockerfile": "Dockerfile",
+      "context": ".."
+    },
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/bash",
 		"files.watcherExclude": {
@@ -69,6 +73,8 @@
 			"/workspaces/magma/lte/gateway/python/",
 		],
 		"python.defaultInterpreterPath": "/usr/bin/python",
+        "python.linting.pylintEnabled": true,
+        "python.linting.pylintPath": "pylint",
         "python.formatting.provider": "autopep8",
 		"python.formatting.autopep8Args": [
 			// This should be the same set of flags as ones specified in `lte/gateway/precommit.py`
