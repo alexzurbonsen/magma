@@ -13,6 +13,9 @@
 #
 # log_level is set in mconfig. It can be overridden here
 
+# Append GRPC content to the log
+print_grpc_payload: false
+
 tr069:
   interface: eth1 # NOTE: this value must be consistent with dnsmasq.conf
   port: 48080
@@ -52,7 +55,3 @@ web_ui_enable_list: []
 
 # Network interface to terminate S1
 s1_interface: eth1
-
-# [Experimental] Enable Sentry for this service
-# Allowed values: send_all_errors, send_selected_errors, disabled
-sentry: disabled
