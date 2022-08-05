@@ -630,9 +630,9 @@
         },
         "docker": {
           "root": true,
-          "source": "pypi",
+          "source": "apt",
           "sysdep": "python3-docker",
-          "version": "5.0.3"
+          "version": "4.1.0"
         },
         "envoy": {
           "root": true,
@@ -783,6 +783,12 @@
           "source": "pypi",
           "sysdep": "python3-lxml",
           "version": "4.9.1"
+        },
+        "markupsafe": {
+          "root": false,
+          "source": "pypi",
+          "sysdep": "python3-markupsafe",
+          "version": "2.1.1"
         },
         "mccabe": {
           "root": false,
@@ -1132,7 +1138,7 @@
           "version": "0.29.32"
         },
         "docker": {
-          "version": "5.0.3"
+          "version": "4.1.0"
         },
         "eventlet": {
           "version": "0.30.2"
@@ -1172,6 +1178,9 @@
         },
         "lxml": {
           "version": "4.9.1"
+        },
+        "markupsafe": {
+          "version": "2.1.1"
         },
         "netifaces": {
           "version": "0.11.0"
