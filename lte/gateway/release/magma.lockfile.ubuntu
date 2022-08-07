@@ -785,7 +785,7 @@
           "version": "4.9.1"
         },
         "markupsafe": {
-          "root": false,
+          "root": true,
           "source": "pypi",
           "sysdep": "python3-markupsafe",
           "version": "2.1.1"
