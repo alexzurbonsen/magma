@@ -845,7 +845,7 @@
           "version": "5.9.1"
         },
         "pycares": {
-          "root": false,
+          "root": true,
           "source": "pypi",
           "sysdep": "python3-pycares",
           "version": "4.2.1"
@@ -959,10 +959,10 @@
           "version": "6.0"
         },
         "redis": {
-          "root": true,
+          "root": false,
           "source": "apt",
           "sysdep": "python3-redis",
-          "version": "3.5.0"
+          "version": "3.5.3"
         },
         "redis-collections": {
           "root": true,
@@ -1071,6 +1071,12 @@
           "source": "apt",
           "sysdep": "python3-typing-extensions",
           "version": "3.7.4.3"
+        },
+        "urllib3": {
+          "root": true,
+          "source": "pypi",
+          "sysdep": "python3-urllib3",
+          "version": "1.26.11"
         },
         "webcolors": {
           "root": true,
@@ -1262,6 +1268,9 @@
         },
         "systemd-python": {
           "version": "234"
+        },
+        "urllib3": {
+          "version": "1.26.11"
         },
         "webcolors": {
           "version": "1.12"

@@ -58,14 +58,14 @@ setup(
         'scripts/traffic_cli.py',
     ],
     install_requires=[
-        'setuptools==63.3.0',
+        'setuptools==49.6.0',
         'Cython>=0.29.32',
         'pystemd>=0.10.0',
         'docker>=4.1.0',
         'fire>=0.4.0',
         'glob2>=0.7',
         'aioh2>=0.2.2',
-        'redis==3.5',  # redis-py (Python bindings to redis)
+        'redis==3.5.3',  # redis-py (Python bindings to redis)
         'redis-collections==0.11.0',
         'python-redis-lock>=3.7.0',
         'aiohttp>=3.8.1',
