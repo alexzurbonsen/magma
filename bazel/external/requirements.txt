@@ -1356,8 +1356,8 @@ swagger-spec-validator==2.7.4 \
     --hash=sha256:2aee5e1fc0503be9f8299378b10c92169572781573c6de3315e831fd0559ba73 \
     --hash=sha256:4e373a4db5262e7257fde17d84c5c0178327b8057985ab1be63f580bfa009855
     # via bravado-core
-systemd==0.16.1 \
-    --hash=sha256:f44a02434cb1e6ff686bc7d25a7a665cc7af665965e933df3e76fa02d351a75b
+systemd-python==234 \
+    --hash=sha256:fd0e44bf70eadae45aadc292cb0a7eb5b0b6372cd1b391228047d33895db83e7
     # via -r requirements.in
 tinyrpc==1.1.4 \
     --hash=sha256:c99f412e5d9849c2deb468ea37fee2faf12fbc95bdd3616ae5c276ea195ed6bd
