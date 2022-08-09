@@ -120,7 +120,7 @@ py_library(
     name = "sdwatchdog",
     srcs = ["sdwatchdog.py"],
     deps = [
-        requirement("systemd"),
+        requirement("systemd-python"),
         ":job",
     ],
 )
