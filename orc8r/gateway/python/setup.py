@@ -82,8 +82,8 @@ setup(
         'snowflake>=0.0.3',
         'psutil==5.9.1',
         'cryptography==3.2.1',
-        'itsdangerous>=1.1.0',
-        'click>=7.1.2',
+        'itsdangerous==1.1.0',
+        'click==7.1.2',
         'pycares>=4.2.1',
         'python-dateutil>=2.8.2',
         # force same requests version as lte/gateway/python/setup.py
