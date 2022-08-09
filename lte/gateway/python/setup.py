@@ -104,7 +104,7 @@ setup(
         'ryu>=4.34',
         'spyne>=2.14.0',
         'scapy==2.4.5',
-        'flask>=1.0.2',
+        'flask==1.1.4',
         'sentry_sdk>=1.9.0',
         'aiodns>=3.0.0',
         'pymemoize>=1.0.3',
